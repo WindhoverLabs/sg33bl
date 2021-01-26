@@ -1,5 +1,5 @@
 
-add_airliner_app_def(sg33bl
+buildliner_add_app_def(sg33bl
     FILE SG33BL
     SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/sg33bl_app.cpp
@@ -24,7 +24,7 @@ add_airliner_app_def(sg33bl
     DESIGN_DEFINITION   ${CMAKE_CURRENT_SOURCE_DIR}/sg33bl_msg_overrides.json 
 )
 
-add_airliner_app_unit_test(sg33bl-ut
+buildliner_add_app_unit_test(sg33bl-ut
     UTASSERT
     NO_HELGRIND
     NO_MASSIF
